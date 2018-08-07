@@ -1,7 +1,7 @@
-#React application using AWSMobile.
+# React application using AWSMobile.
 
-#Cognito
-#S3
-#Auth
+## Cognito
+## S3
+## Auth
 
-#Users can store and playback video Files.
+## Users can store and playback video Files.
