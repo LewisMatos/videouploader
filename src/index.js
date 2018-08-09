@@ -1,13 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+import 'bootstrap/dist/css/bootstrap.min.css';
+import Router from './Router';
 import registerServiceWorker from './registerServiceWorker';
-
 import Amplify from 'aws-amplify';
 import configuration from './aws-exports';
 
 Amplify.configure(configuration);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+ReactDOM.render(<Router />, document.getElementById('root'));
 registerServiceWorker();
