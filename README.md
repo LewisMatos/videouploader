@@ -5,4 +5,5 @@
 
 * Cognito
 * S3
-* Auth
+* Route53
+* Amplify
